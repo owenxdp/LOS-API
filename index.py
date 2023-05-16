@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes.index import test
+from routes.indexRoutes import schedule
 app = FastAPI()
 
-app.include_router(test)
+app.include_router(schedule)
