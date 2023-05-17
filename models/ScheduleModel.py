@@ -7,5 +7,6 @@ Schedules = Table(
     Column("id",Integer,primary_key=True),
     Column("schedule_time",Time),
     Column("code",String(45)),
-    Column("description",String(255))
+    Column("description",String(255)),
+    Column("is_active",Integer)
 )
